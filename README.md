@@ -35,10 +35,10 @@ yarn deploy
 
 ## Endpoints List
   
-| Method  | Endpoint | Params |
-| --- | --- | --- |
-| GET  | / | Generates a random 6-letter CAPTCHA |
-| GET  | /{string} | Generates CAPTCHA with {string} |
+| Method  | Endpoint | Content-Type | Params |
+| --- | --- | --- | --- |
+| GET  | / | text/plain (base64) | Generates a random 6-letter CAPTCHA |
+| GET  | /{string} | text/plain (base64) | Generates CAPTCHA with {string} |
 
 
 ## WASM Module Build 
