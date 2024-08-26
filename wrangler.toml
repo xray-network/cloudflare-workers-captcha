@@ -1,0 +1,4 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "cf-captcha"
+main = "src/index.ts"
+compatibility_date = "2024-06-20"
