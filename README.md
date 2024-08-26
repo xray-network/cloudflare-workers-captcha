@@ -35,7 +35,7 @@ yarn deploy
 
 ## Endpoints List
   
-| Method  | Endpoint | Content-Type | Params |
+| Method  | Endpoint | Content-Type | Description |
 | --- | --- | --- | --- |
 | GET  | / | text/plain (base64) | Generates a random 6-letter CAPTCHA |
 | GET  | /{string} | text/plain (base64) | Generates CAPTCHA with {string} |
