@@ -3,7 +3,6 @@ import { generateCaptchaImage, getRandomCaptchaText } from "@/utils"
 export default {
   async fetch(request) {
     const requestURL = new URL(request.url)
-    console.log(requestURL.pathname)
 
     if (requestURL.pathname === "/favicon.ico") {
       return new Response(null, { status: 404 })
